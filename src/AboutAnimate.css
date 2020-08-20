@@ -1,0 +1,14 @@
+@media only screen and (max-width: 1900px){
+    .AnimationContainer{
+    width: 100%;
+    overflow: hidden;
+    height: calc(100vh - 100px);
+    }
+}
+
+
+@media (max-width:768px){
+    .AnimationContainer{
+        height: 50vh;
+    }
+}
