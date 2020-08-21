@@ -1,0 +1,139 @@
+@media only screen and (max-width: 1900px){
+    .profile-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+    }
+    .profile-section-container{
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        width: 50vw;
+        height: 100vh;
+    }
+    .profile-heading{
+        margin: 0;
+        margin-left: 150px;
+        text-align: left;
+        font-size: 40px;
+    }
+    .profile-text{
+        margin: 0;
+        line-height: 40px;
+        margin-left: 150px;
+        text-align: justify;
+        font-size: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .profile-text p{
+        margin: 0;
+    }
+    .profile-links{
+        margin: 0;
+        display: block;    
+        margin-left: 150px;
+        font-size: 25px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .profile-links:hover{
+        color: rgba(254, 177, 82, 0.9);
+    }
+    .profile-skills-heading{
+        margin: 0;
+        margin-left: 30px;
+        font-size: 20px;
+        text-align: left;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    .profile-skills-list{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-left: 150px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .profile-skills-list-items{
+        text-align: center;
+        margin: 0;
+        margin-top: 5px;
+        font-size: 12px;
+        color: rgba(110, 110, 110, 0.9);
+    }
+    .profile-skills-icons-wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .skill-icon-container{
+        height: 80vh;
+        width: 80vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 5px;
+        justify-items: center;
+        align-items: center;
+    }
+    .skill-icon-wrapper{
+        padding: 10px;
+    } 
+    .leng-icon{
+        font-size: 70px;
+        color: rgba(254, 177, 82, 0.9);
+        transition: all 0.3s ease-in-out;
+    }
+    .leng-icon:hover{
+        transform: scale(1.1);
+        color: rgb(136, 136, 136);
+    }
+}
+
+@media (max-width:768px){
+    .profile-container{
+        grid-template-columns: none;
+        grid-template-rows: 80% 20%;
+        grid-gap: 0;
+    }
+    .profile-section-container{
+        width: 100vw;
+    }
+    .profile-heading{
+        margin-left: 10px;
+        font-size: 30px;
+        padding: 10px;
+    }
+    .profile-text{
+        margin: 0;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 10px;
+        font-size: 18px;
+    }
+    .profile-text p{
+        margin: 0;
+    }
+    .profile-links{  
+        margin-left: 10px;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: 900;
+    }
+    
+    .profile-skills-heading{
+        padding: 10px;
+        font-size: 25px;
+        margin-left: 10px;
+    }
+    .profile-skills-list{
+        padding: 20px;
+        margin-left: 0;
+    }
+    .profile-skills-list-items{
+        padding: 5px;  
+    }
+    .skill-icon-container{
+        display: none;
+    }
+}

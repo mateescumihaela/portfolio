@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import About from "./About"
+import Profile from "./Profile"
 import {
   BrowserRouter,
   Switch,
@@ -20,6 +21,9 @@ render () {
           <Route path="/" exact>
             <About />
           </Route>
+          <Route path="/profile">
+                <Profile />
+                </Route>
           <Route path="/:target">
             <About />
           </Route>
