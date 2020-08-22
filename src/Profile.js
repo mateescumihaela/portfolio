@@ -23,10 +23,6 @@ export default function Profile(props) {
                     <div className="profile-text"> 
                         <p>Passionate about all things growth. I come from a digital marketing background and love tech. Switching to web dev/growth engineering was a no brainer.</p> 
                     </div>
-                    <div className="profile-link-wrapper">
-                        <Link className="router-link profile-links" to="/experience">See experience <i className="far fa-arrow-alt-circle-right"></i></Link>
-                        <Link className="router-link profile-links" to="/education">See education <i className="far fa-arrow-alt-circle-right"></i></Link>
-                    </div>
                 </div>
                 </BounceInLeft>
                 <div className="profile-skills-icons-wrapper">   
