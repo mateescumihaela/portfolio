@@ -4,6 +4,8 @@ import './App.css';
 import About from "./About"
 import Profile from "./Profile"
 import Portfolio from "./Portfolio"
+import Header from "./Header"
+import ContactForm from './ContactForm'
 import {
   BrowserRouter,
   Switch,
@@ -18,6 +20,7 @@ render () {
   return (
     <main className="main-application-wrapper">
     <BrowserRouter>
+    <Header />
         <Switch>
           <Route path="/" exact>
             <About />
@@ -28,6 +31,9 @@ render () {
           <Route path="/profile">
                 <Profile />
                 </Route>
+                <Route path="/contact">
+                <ContactForm />
+              </Route>
           <Route path="/:target">
             <About />
           </Route>
@@ -35,6 +41,7 @@ render () {
             <About />
           </Route>
         </Switch>
+        
     </BrowserRouter>
   </main>
   )

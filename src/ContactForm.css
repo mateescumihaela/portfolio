@@ -1,0 +1,160 @@
+@media only screen and (max-width: 1900px){
+    .contactForm-wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 40px;
+        align-items: center;
+        height: 100vh;
+    }
+    
+    /* Contact Form -- Text Area */
+    .contact-textContainer{
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin-left: 150px;
+    }
+    .contactForm-heading{
+        font-size: 40px;
+        text-align: left;
+        margin: 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .contactForm-sub-heading{
+        font-size: 30px;
+        text-align: left;
+        margin: 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .contactForm-text{
+        line-height: 40px;
+        text-align: left;
+        margin: 0;
+        font-size: 20px;
+    }
+    .contactForm-social{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .contactForm-social-link{
+        font-size: 40px;
+        color: gray;
+        margin-right: 40px;
+    }
+    .contactForm-download-resume-link{
+        font-size: 30px;
+        text-decoration: none;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: gray;
+    }
+    
+    
+    /* Contact Form -- Form Area */
+    .contactForm-formContainer{
+        display: flex;
+        flex-flow: column;
+        padding: 20px;
+        text-align: start;
+        margin-right: 100px;
+    }
+    .contactForm-label{
+        font-size: 20px;
+        display: block;
+        padding: 10px;
+        padding-bottom: 2px;
+    }
+    .contactForm-input{
+        display: block;
+        font-size: 20px;
+        margin: 10px;
+        padding: 10px;
+        border: none;
+        border-bottom: 0.9px solid rgba(181, 181, 181, 0.9);
+        background: rgb(236, 236, 236);
+        border-top-left-radius: 3px 3px;
+        border-top-right-radius: 3px 3px;
+    }
+    .contactForm-input:focus{
+        outline: none;
+    }
+    .contactForm-submit-button{
+        width: 50%;
+        border: none;
+        background: rgba(254, 177, 82, 0.9);
+        border-radius: 3px;
+        font-size: 20px;
+        padding: 10px;
+    }
+    .contactForm-submit-button:hover{
+        box-shadow: 0 0 1px 1px rgb(155, 223, 255),
+            0 0 1px 2px rgb(221, 169, 255)
+    
+    }
+    .contactForm-input-textArea{
+        height: 100px;
+    }
+    
+    .mailer-anim-container{
+        font-size: 40px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-right: 150px;
+    }
+}
+
+@media (max-width:768px){
+    .contactForm-wrapper{
+        grid-template-columns: none;
+        grid-template-rows: 1fr 1fr;
+        height: 80%;
+        grid-gap: 0;
+    }
+    .contact-textContainer{
+        margin-left: 0;
+        padding: 20px;
+    }
+    .contactForm-heading{
+        margin-top: 50px;
+        font-size: 30px;
+        padding-bottom: 5px;
+    }
+    .contactForm-sub-heading{
+        font-size: 25px;
+        padding-bottom: 5px;
+    }
+    .contactForm-text{
+        font-size: 18px;
+    }
+    .contactForm-social{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .contactForm-download-resume-link{
+        font-size: 20px;
+        padding-bottom: 0;
+    }
+    .contactForm-formContainer{
+        padding: 10px;
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+    .contactForm-label{
+        font-size: 18px;
+    }
+    .contactForm-input{
+        font-size: 18px;
+    }
+    .contactForm-input-textArea{
+        height: 80px;
+    }
+}

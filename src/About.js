@@ -45,7 +45,7 @@ function About(){
                             </FadeIn>
                         </div>
                     <div className="about-intro-navigation">
-                        <Link className="router-link" to="/profile">{getLinkElement('About', 1.5)}</Link>
+                        <Link className="router-link" to="/about">{getLinkElement('About', 1.5)}</Link>
                         <Link className="router-link" to="/work">{getLinkElement('Work', 2)}</Link>
                         <Link className="router-link" to="/contact">{getLinkElement('Get in touch', 2.50)}</Link>
                     </div>
