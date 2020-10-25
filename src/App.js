@@ -28,7 +28,7 @@ render () {
           <Route path="/work">
                 <Portfolio />
                 </Route>
-          <Route path="/profile">
+          <Route path="/about">
                 <Profile />
                 </Route>
                 <Route path="/contact">
